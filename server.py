@@ -93,7 +93,7 @@ PROBLEMS = [
         "approximate": True,
         "tests": [
             {"description": "Sample ciphertext — check format and decoding quality",
-             "input": "Zsi bpnn vf eyxvdm vf bvzs bpm jxmibmiz xvlpmi bpib wvl kwevlz, ib bpm sbvxa nwcm vf bpmq.",
+             "input": "ekt xsz bqo yqpz ekqe kt ixvsz oxe kqht mtto ektrt pg ykt kqz oxe exsz kpb qmxve ekt xot ikx iqy fxpof ex mt ipek qss xg ektb grxb ekpy nsqjt qoz ektd itrt oxe yqpz ex kqht mtto ekt gprye.",
              "expected": None,
              "expectedDisplay": "Output contains \"Mapping:\" + \"Decoded:\" headers and ≥ 5 dictionary words",
              "check": "cipherCracker"},
