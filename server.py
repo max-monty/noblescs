@@ -36,11 +36,34 @@ RUNOFF2 = "2\nAlice\nBob\n4\nAlice Bob\nAlice Bob\nBob Alice\nBob Alice\n"
 RUNOFF3 = "1\nSolo\n3\nSolo\nSolo\nSolo\n"
 
 DICT_WORDS = [
-    "the","and","to","of","a","in","is","it","you","that",
-    "he","was","for","on","are","as","with","his","they","at",
-    "be","this","from","or","one","have","an","by","but","not",
-    "had","her","she","all","there","been","when","who","will",
-    "would","said","each","which","do","their","what","so","up",
+        "the", "and", "to", "of", "a", "in", "is", "it", "you", "that",
+        "he", "was", "for", "on", "are", "as", "with", "his", "they", "at",
+        "be", "this", "from", "or", "one", "have", "an", "by", "but", "not",
+        "had", "her", "she", "all", "there", "been", "when", "who", "will",
+        "would", "said", "each", "which", "do", "their", "what", "so", "up",
+        "old", "man", "told", "him", "about", "going", "place", "them",
+        "were", "first", "if",
+        "i", "my", "me", "we", "us", "our", "no", "yes", "did", "has",
+        "can", "may", "its", "how", "than", "then", "now", "out", "just",
+        "also", "into", "could", "come", "made", "after", "back", "only",
+        "new", "some", "time", "very", "your", "way", "any", "more",
+        "other", "like", "over", "such", "here", "take", "most", "too",
+        "well", "where", "much", "down", "should", "still", "get", "own",
+        "even", "make", "good", "give", "people", "before", "two", "work",
+        "long", "day", "see", "look", "think", "know", "many", "great",
+        "while", "right", "same", "through", "say", "last", "might",
+        "never", "every", "between", "under", "must", "another",
+        "am", "if", "go", "off", "put", "let", "set", "few", "end",
+        "got", "yet", "why", "men", "run", "too", "big", "far", "tell",
+        "keep", "help", "hand", "away", "left", "life", "home", "need",
+        "head", "went", "came", "find", "want", "use",
+        "found", "called", "used", "being", "again", "began", "took",
+        "asked", "three", "house", "world", "part", "small", "those",
+        "thing", "though", "without", "nothing", "upon", "whole",
+        "enough", "almost", "however", "once", "side", "both",
+        "next", "always", "point", "turn", "until", "number",
+        "young", "eyes", "against", "night", "left", "above",
+        "name", "little", "year", "face", "done", "seen"
 ]
 
 PROBLEMS = [
@@ -93,7 +116,7 @@ PROBLEMS = [
         "approximate": True,
         "tests": [
             {"description": "Sample ciphertext — check format and decoding quality",
-             "input": "ekt xsz bqo yqpz ekqe kt ixvsz oxe kqht mtto ektrt pg ykt kqz oxe exsz kpb qmxve ekt xot ikx iqy fxpof ex mt ipek qss xg ektb grxb ekpy nsqjt qoz ektd itrt oxe yqpz ex kqht mtto ekt gprye.",
+             "input": "ekt xsz bqo yqpz ekqe kt ixvsz oxe kqht mtto ektrt pg ykt kqz oxe exsz kpb qmxve ekt xot ikx iqy fxpof ex mt ipek qss xg ektb grxb ekpy nsqjt qoz ektd itrt oxe yqpz ex kqht mtto ekt gprye",
              "expected": None,
              "expectedDisplay": "Output contains \"Mapping:\" + \"Decoded:\" headers and ≥ 5 dictionary words",
              "check": "cipherCracker"},
