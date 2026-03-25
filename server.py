@@ -31,9 +31,9 @@ DNA = {
     "nomatch": "AGATCAGATCAGATCTTTTTTCTTTTTTTCTAATGAATGTCTAGTCTAG",
 }
 
-RUNOFF1 = "3\nAlice\nBob\nCharlie\n5\nAlice Bob Charlie\nCharlie Alice Bob\nBob Charlie Alice\nAlice Charlie Bob\nCharlie Bob Alice\n"
-RUNOFF2 = "2\nAlice\nBob\n4\nAlice Bob\nAlice Bob\nBob Alice\nBob Alice\n"
-RUNOFF3 = "1\nSolo\n3\nSolo\nSolo\nSolo\n"
+RUNOFF1 = "3 Alice Bob Charlie 5 Alice Bob Charlie Charlie Alice Bob Bob Charlie Alice Alice Charlie Bob Charlie Bob Alice"
+RUNOFF2 = "2 Alice Bob 4 Alice Bob Alice Bob Bob Alice Bob Alice"
+RUNOFF3 = "1 Solo 3 Solo Solo Solo"
 
 DICT_WORDS = [
         "the", "and", "to", "of", "a", "in", "is", "it", "you", "that",
