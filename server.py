@@ -201,7 +201,7 @@ PROBLEMS = [
             {"description": "4×4 Sample 1 clue grid (mines at row 0 col 2, row 2 col 1)",
              "input": "",
              "expected": ["0 1 * 1","1 2 2 1","1 * 1 0","1 1 1 0"],
-             "expectedDisplay": "Output contains all 4 clue rows: \"1 1 * 1\", \"1 2 2 1\", \"1 * 2 0\", \"1 1 2 0\"",
+             "expectedDisplay": "Output contains all 4 clue rows: \"0 1 * 1\", \"1 2 2 1\", \"1 * 1 0\", \"1 1 1 0\"",
              "check": "containsAll"},
         ],
     },
